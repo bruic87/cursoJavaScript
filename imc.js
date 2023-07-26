@@ -9,7 +9,7 @@ var nome_aluno = aluno_academia.nome;
 var peso_aluno = aluno_academia.peso;
 var altura_aluno = aluno_academia.altura;
 
-var imc_aluno = peso_aluno / (altura_aluno * altura_aluno);
+var imc_aluno = (peso_aluno / (altura_aluno * altura_aluno)).toFixed(2);
 
 console.log("O IMC do aluno é de: " + imc_aluno);
 
